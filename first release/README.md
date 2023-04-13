@@ -3,7 +3,6 @@
 
 this part is the first release in car HMI project with basic design done using QML language and c++ backend connected together using QT core. Sensors and switches are connected to esp32 and values are passed to raspberry pi using serial communication on UART protocol then QT c++ code parses frames and show them on gui using signals and slots mechanism. development is done on desktop using QT SDK for ubuntu and cross compiled to run on raspberry pi.
 ## Design
-screenshot from the design running on raspberry pi
 ![Screenshot](https://github.com/Mohammed-Rashad-Nasr/CAR_HMI/blob/main/first%20release/Picture1.png)
 
 
